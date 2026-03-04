@@ -1,0 +1,83 @@
+/* página */
+body{
+    margin:40px auto;
+    width:900px;
+    height:720px;
+    background:#bfbfbf;
+    position:relative;
+}
+
+div{
+    position:absolute;
+}
+
+/* topo alinhado ao painel */
+#topo{
+    top:0;
+    left:90px;
+    width:720px;
+    height:180px;
+    background:#e68763;
+}
+
+/* painel branco */
+#painel{
+    top:180px;
+    left:90px;
+    width:720px;
+    height:480px;
+    background:#e9e9e9;
+}
+
+/* busca */
+#busca{
+    top:70px;
+    left:260px;
+    width:320px;
+    height:30px;
+    background:#eee;
+}
+
+#buscaBtn{
+    top:70px;
+    left:580px;
+    width:40px;
+    height:30px;
+    background:#666;
+}
+
+/* mini menus */
+#m1,#m2,#m3,#m4{
+    top:220px;
+    width:140px;
+    height:32px;
+    background:#b5b5b5;
+}
+
+/* risco branco dentro */
+#m1::after,
+#m2::after,
+#m3::after,
+#m4::after{
+    content:"";
+    position:absolute;
+    top:14px;
+    left:25px;
+    width:90px;
+    height:4px;
+    background:white;
+}
+
+#m1{ left:140px;}
+#m2{ left:300px;}
+#m3{ left:460px;}
+#m4{ left:620px;}
+
+/* grid */
+#c1{ top:270px; left:140px; width:150px; height:150px; background:#e68763;}
+#c2{ top:270px; left:310px; width:150px; height:150px; background:#bfbcbc;}
+#c3{ top:270px; left:480px; width:150px; height:150px; background:#7eaab0;}
+#c4{ top:270px; left:650px; width:140px; height:330px; background:#bfbcbc;}
+
+#c5{ top:440px; left:140px; width:150px; height:150px; background:#7eaab0;}
+#c6{ top:440px; left:310px; width:320px; height:150px; background:#e68763;}
