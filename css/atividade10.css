@@ -1,0 +1,106 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+    color: black;
+}
+
+#container{
+    position: relative;
+    background-color:cadetblue;
+    margin: auto;
+    width: 90%;
+    height: auto;
+}
+
+#cabecalho{
+    position: relative;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+}
+
+#lado_esquerdo{
+    position: relative;
+    background-color: aqua;
+    width: 30%;
+    height: 650px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caixinha{
+    position: relative;
+    background-color: white;
+    width: 95%;
+    height: 300px;
+    margin: auto;
+}
+
+#lado_direito{
+    position: relative;
+    background-color: rgb(89, 0, 255);
+    width: 70%;
+    height: 650px;
+    float: left;
+}
+
+#fundo_direito{
+    position: relative;
+    background-color: rgb(238, 238, 238);
+    width: 95%;
+    height: 632px;
+    margin-left:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    position: relative;
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+}
+
+p{
+    position: relative;
+    background-color: brown;
+    width: 100%;
+    height: 200px;
+    color: white;
+    margin: auto;
+}
+
+div{
+    position: relative;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 330px;
+    margin: auto;
+}
+
+#rodape{
+    position: relative;
+    background-color: rgb(18, 0, 0);
+    width: 100%;
+    height: 100px;
+    clear: left;
+    color: white;
+}
